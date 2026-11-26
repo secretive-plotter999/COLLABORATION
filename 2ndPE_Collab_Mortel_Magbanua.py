@@ -5,7 +5,7 @@ print("Product Menu")
 print("No.\tProduct\t\tPrice")
 print("1\tBurger\t\tP50.00")
 print("2\tFries\t\tP35.00")
-print("3\tSoft Drink\tP25.00")
+print("3\tItlog Ni Sean\tP1000.00")
 
 while True:
     choice = input("\nEnter the product number (1-3): ")
@@ -17,8 +17,8 @@ while True:
         product_name = "Fries"
         product_price = 35.00
     elif choice == "3":
-        product_name = "Soft Drink"
-        product_price = 25.00
+        product_name = "Itlog Ni Sean"
+        product_price = 1000.00
     else:
         print("Invalid choice. Please enter 1, 2, or 3.")
         continue
